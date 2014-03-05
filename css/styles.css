@@ -117,38 +117,12 @@ ol {
   margin: 0 0 10px 25px;
 }
 
-
-.fixedNav {
-    position: fixed;
-    top: 35px;
-    z-index: 9999;
-}
-
 .floatedlist {
     overflow: hidden;
 }
 
 .wrapper a {
     font-size: 16px;
-}
-
-#waypoint1 {
-    height: 1px;
-    position: absolute;
-    top: 105px;
-    width: 100%;
-}
-
-a.close-btn {
-    display: block;
-    text-indent: -9999px;
-    background: url('../img/sprite.png') no-repeat -189px -85px; 
-    width: 33px; 
-    height: 34px;
-    cursor: pointer;
-    float: right;
-    display: none;
-    margin-top: 5px;
 }
 
 .bioquote{
@@ -218,10 +192,6 @@ text-align: right;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-.section-title {
-    background: transparent url('../img/title-bg.png') no-repeat left bottom;
 }
 
 .section-title h2 {
@@ -304,11 +274,9 @@ text-align: right;
   -webkit-box-shadow: 0 5px 12px -10px rgba(68,68,68,0.6);
      -moz-box-shadow: 0 5px 12px -10px rgba(68,68,68,0.6);
           box-shadow: 0 5px 12px -10px rgba(68,68,68,0.6);
-
 }
 
 .headermain .logo{float: left;margin:0}
-
 
 .navbar{
   margin-bottom: 0
@@ -317,14 +285,6 @@ text-align: right;
 .fixed, .fixedTabs {
     position: fixed;
     width: 100%;
-}
-
-.fixedTabs {
-    top: 200px;
-}
-
-.closedNav {
-    cursor: pointer;
 }
 
 /* Secondary nav */
@@ -519,16 +479,6 @@ text-align: right;
     width: 620px;
     margin-left: 23px;
     padding: 37px 0 0 0;
-}
-
-.offsetContent {
-    padding-top: 800px;
-}
-
-.main-content.singlecol{
-  float: none;
-  width: auto;
-  margin-right: 23px;
 }
 
 .sidebar {
@@ -856,74 +806,6 @@ a.read-more {
     line-height: 32px;
 }
 
-.sectors-search {
-    padding: 0 0 30px 0;
-    margin: 0 0 30px 0;
-    border-bottom: 1px solid #bebebe;
-    width: 440px;
-}
-.sectors-search p {
-    margin-bottom: 10px;
-}
-
-.sectorsearchbox {
-    border: 0 none;
-    clear: both;
-    margin: 0;
-    padding: 10px 15px 8px 20px;
-    text-align: right;
-    width: 406px;
-}
-
-.sectorsearchbox, .sectorsearchbox .textbox {
-    background-color: #bf2296;
-    color: #FFFFFF;
-}
-
-.sectorsearchbox .textbox {
-    border: 0 none;
-    float: left;
-    font-size: 22px;
-    line-height: 25px;
-    margin: 0;
-    outline: 0 none;
-    padding: 0;
-    text-align: left;
-    width: 90%;
-}
-
-.sectorsearchbox .btn {
-    background: url("../../img/sprite.png") no-repeat scroll -43px -60px transparent;
-    border: 0 none;
-    display: inline-block;
-    height: 21px;
-    margin-top: 4px;
-    width: 20px;
-}
-.sectorsearchbox .btn:hover {
-    background-position: -21px -60px;
-}
-
-a.cat-link {
-    display: block;
-    width: 374px;
-    /*padding: 9px 10px;*/
-    margin-bottom: 4px;
-    color: #fff;
-    background: #631d76;
-    font-size: 18px;
-    float: left;
-    padding: 8px 18px 9px;
-}
-
-a.cat-link:hover {
-    background: #42144f;
-}
-
-a.leftLink {
-    margin-right: 4px;
-}
-
 /* services detail */
 
 .services-link .tab-list .active a, .services-link .tab-list a:hover, .services-links .tabContent h3, .services-link a {
@@ -932,40 +814,6 @@ a.leftLink {
 
 .services-link .tab-list .active a {
     border-color: #631d76;
-}
-
-.content-links {
-    margin: 50px 0 50px 0;
-}
-
-.content-links a {
-    display: block;
-    margin-bottom: 10px;
-    font-size: 18px;
-    background: #e1e3e3;
-    padding: 9px 10px;
-}
-
-.content-links a:hover {
-    background: #c7c9c9;
-}
-
-.nonFixed {
-    margin-top: 0px;
-}
-
-.mainFixed {
-    margin-top: 280px;
-}
-
-.tabsFixed {
-    position: fixed;
-    top: 228px;
-    width: 100%;
-    animation:thedrop 5s 1;
-    -moz-animation:thedrop 5s 1;
-    -webkit-animation:thedrop 5s 1;
-    z-index: 101;
 }
 
 .breadcrumb {
@@ -1006,49 +854,6 @@ a.view-full-menu {
 }
 
 .keycont-item{margin-right: 6px !important; margin-bottom: 6px !important;}
-
-.closedNav {
-    cursor: pointer;
-}
-
-.keycontact-filter-box {
-    display: block;
-    width: 170px;
-    height: 210px;
-    background: #631d76;
-    color: #fff;
-    padding: 15px;
-}
-
-.hiddenRegion .keycontact-filter-box {
-    height: 176px;    
-}
-
-.keycontact-filter-box h3 {
-    text-transform: uppercase;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    margin: 0 0 15px 0;
-}
-
-.keycontact-filter-box a {
-    display: block;
-    text-transform: uppercase;
-    font-size: 20px;
-    margin: 0 0 15px 0;
-    font-weight: normal;
-    color: #cea3d9;
-}
-
-.keycontact-filter-box a:hover {
-    color: #fff;
-}
-
-.keycontact-filter-box a.active {
-    color: #fff;
-    text-decoration: underline;
-}
 
 .keycont-item {
     display: block;
@@ -1126,7 +931,6 @@ a.view-full-menu {
   height: 25px;
   position: absolute;
   left: 0;
- 
 }
 
 .linkedin .iconsocial{
@@ -1134,12 +938,10 @@ a.view-full-menu {
   margin-top: -2px;
 }
 
-
 .twitter .iconsocial{
   background-position: -415px -2px;
   width: 24px;
   height: 20px;
-  
 }
 
 .newsletter .iconsocial{
@@ -1153,26 +955,6 @@ a.view-full-menu {
   width: 23px;
   height: 22px;
   
-}
-
-.viewcv-mod{
-  margin-bottom: 50px;
-  vertical-align: bottom;
-}
-
-.viewcv{
-  background: #3f9c35 url('../img/sprite.png') no-repeat -478px -220px;
-  display: inline-block;
-  font-size: 18px;
-  line-height: 24px;
-  color: #fff;
-  padding: 0 0 1px 30px;
-  width: 190px;
-}
-
-.viewcv:hover{
-  color: #fff;
-  background-color: #268c1b
 }
 
 /* key contacts */
@@ -1270,10 +1052,10 @@ a.view-full-menu {
   z-index: 10;
   bottom: 0;
   padding: 12px 11px;
+  color: #D47600;
 }
 
 .keycontact-link .contactwrap{
-  background: url('../img/keycontact-bg.png') no-repeat bottom left;
   position: absolute;
   z-index: 5;
   top: 0;
@@ -1320,6 +1102,8 @@ a.view-full-menu {
 
 .language-wrapper  .close{
   background-position: -111px -85px;
+  color: white;
+  opacity: 0.5;
 }
 
 .modal-overview{
@@ -1666,6 +1450,11 @@ a.view-full-menu {
 
   #lockWaypoint-3 {
     top: 1100px;
+  }
+
+  .language-wrapper {
+    width: 724px;
+    margin-left: -363px;
   }
 
   body,p,
@@ -2129,7 +1918,7 @@ a.view-full-menu {
   .sitesearchbox{
     width: auto;
     padding:8px 15px 7px;
-    background-color: #BF2296;
+    background-color: #0073CF;
   }
 
   .sitesearchbox input.textbox {
@@ -2448,8 +2237,6 @@ a.view-full-menu {
 }
 
 @media (max-width: 600px) {
- 
-
   .modal{
     position: absolute;
   }
@@ -2512,6 +2299,7 @@ a.view-full-menu {
 }
 
 @media (max-width: 480px) {
+
 
     .lang-region {
         padding: 0;
